@@ -91,7 +91,6 @@ void mostra_status(vector<char> incorreto, string resposta) {
 
     for(int i = 0; i < incorreto.size(); i++) {
         cout << incorreto[i] << " ";
-        cout << endl;
     }
 
     cout << endl << "Palavra Oculta: " << endl;
@@ -103,9 +102,13 @@ void mostra_status(vector<char> incorreto, string resposta) {
 void final(string resposta, string palavra_oculta) {
     if(resposta == palavra_oculta) {
         cout << "Parabens! Voce acertou a palvra oculta '"<< palavra_oculta <<"' e conseguiu salvar o boneco da forca!" << endl;
+        cout << endl;
+        cout << endl;
     }
     else {
         cout << "Ops... voce nao conseguiu salvar o boneco da forca :(" << endl;
-        cout << "Recomece o programa para tentar novamente." << endl;
+        cout << "Reabra o programa para tentar novamente." << endl;
+        cout << endl;
+        cout << endl;
     }
 };

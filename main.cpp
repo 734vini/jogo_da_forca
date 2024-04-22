@@ -43,5 +43,6 @@ int main() {
 
     final(resposta, palavra_oculta);
 
+    system("pause");
     return 0;
 };
